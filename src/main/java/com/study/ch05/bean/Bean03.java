@@ -11,7 +11,7 @@ public class Bean03 {
 	public String getFullName() {
 		return firstName + " " + lastName;
 	}
-
+	
 	public String getFirstName() {
 		return firstName;
 	}
