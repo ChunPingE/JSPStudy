@@ -12,5 +12,6 @@
 		request.setAttribute("numB", Integer.parseInt(request.getParameter("numB")));
 	%>
 	<p>${numA > numB ? '첫 번째 수가 큽니다' : '두 번째 수가 큽니다'}</p>
+	<p>${(param.numA + 0) > (param.numB + 0) ? '첫 번째 수가 큽니다' : '두 번째 수가 큽니다'}</p>
 </body>
 </html>
