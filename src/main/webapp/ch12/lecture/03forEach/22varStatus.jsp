@@ -1,4 +1,3 @@
-<%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -10,17 +9,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%
-		List<String> list = new ArrayList<>();
-		list.add("스즈메의문단속");
-		list.add("던전앤드래곤");
-		list.add("슬램덩크");
-		
-		pageContext.setAttribute("movies", list);
-	%>
-	<c:forEach items="${movies}" var="movie">
-		${movie} <br />
+	<c:forEach begin="22" end="26" varStatus="status">
+		<div>index: ${status.index}</div>
+		<div>count : ${status.count}</div>
+		<div>current : ${status.current}</div>
+		<div>first : ${status.first}</div>
+		<div>last : ${status.last}</div>
+		<hr />
 	</c:forEach>
-
 </body>
 </html>
