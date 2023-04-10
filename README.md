@@ -42,3 +42,12 @@
 2023.03.23 40일차 Java 데이터 입출력 + 멀티스레드<br>
 2023.03.24 41일차 Java 멀티스레드 + 동기화된컬렉션 + 네트워크 <br>
 2023.03.27 42일차 Java 마무리 + JSP시작 <br>
+2023.03.28 43일차 JSP 스크립트 릿 + Form <br>
+2023.03.29 44일차 JSP form action + post + include액션태그 <br>
+2023.03.30 45일차 JSP forward + path + redirect + session조금 <br>
+2023.03.31 46일차 JSP session + cookie + javabean <br>
+2023.04.03 47일차 JSP EL(표현언어) <br>
+2023.04.04 48일차 JSP EL 연산자 <br>
+2023.04.05 49일차 JSP JSTL if + choose + foreach <br>
+2023.04.06 50일차 JSP JSTL set + remove + out + url + 커스텀 태그 <br>
+2023.04.07 51일차 JSP 서블릿 + jsp 은닉<br>
