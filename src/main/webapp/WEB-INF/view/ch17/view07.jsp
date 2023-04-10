@@ -33,16 +33,21 @@
 	
 	<hr />
 	
-	<div>
-		<c:url value="/lec/sample12"  var="deleteUrl"/>
-	</div>	
+	<c:url value="/lec/sample12"  var="deleteUrl"/>
 	<h1>선수 이름 삭제</h1>
 	<form action="${deleteUrl}" method="post">
 		<input type="hidden" name="index" id="input3" />
 		<input type="text" id="input4" name="name" />
 		<input type="submit" value="삭제" />
 	</form>
-
+	
+	<hr />
+	<!-- 삭제 폼 -->
+	<c:url var="deleteUrl" value="/lec/sample12" />
+	<form action="${deleteUrl }" method="post" >
+		<input type="hidden" name="index" id="input5" />
+		<input type="submit" value="삭제" />
+	</form>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script>
 		$("li").click(function () {
@@ -52,6 +57,7 @@
 			$("#input2").val(index);
 			$("#input4").val(name);
 			$("#input3").val(index);
+			$("#input5").val(index);
 			
 		});
 	</script>

@@ -11,6 +11,7 @@
 		<c:url value="/lec/sample09"  var="listUrl"/>
 		<a href="${listUrl}">선수목록보기</a>
 	</div>
+	
 	<h1>선수 추가 form</h1>
 	<form action="" method="post">
 		<label for="input1">이름</label>
