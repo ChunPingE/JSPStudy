@@ -58,7 +58,6 @@
 			$("#input4").val(name);
 			$("#input3").val(index);
 			$("#input5").val(index);
-			
 		});
 	</script>
 </body>
